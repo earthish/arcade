@@ -6,11 +6,11 @@ def arcade_menu():
     # Map menu numbers to game functions
     game_switch = {
         "1": hand_cricket.main,
-        "2": hangman.play_round,            # assuming you rename hangman code's main function to play_game()
+        "2": hangman.play_round,            
         "3": battleship.battleship,
         "4": blackjack.play_blackjack,
         "5": typingspeed.typing_speed_game,
-        "6": rock_paper_scissors.play_rps, # assuming you wrap RPS code in a function called play_rps()
+        "6": rock_paper_scissors.play_rps, 
         "7": tictactoe.play_tictactoe
     }
 
